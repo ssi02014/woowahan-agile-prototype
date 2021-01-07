@@ -4,9 +4,9 @@
 <br>
 
 # ⭐ PROCESS
-### 2021-01-07
+### // 2021-01-07
 1. **prototype ver1.0**
-    - <Home Component>
+    - Home Component
 
 <br>
 
