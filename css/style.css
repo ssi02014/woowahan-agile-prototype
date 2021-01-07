@@ -1,0 +1,488 @@
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: #f3f3f3;
+    z-index: 100;
+    transition: all .5s ease;
+}
+.header .container {
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .5s ease;
+}
+.header.sticky {
+    background: #D9C5B4;
+}
+.header.sticky .container {
+    padding: 10px 100px;
+}
+.header .header-title {
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.header .header-title span {
+    font-family: 'Fredoka One', cursive;
+    color: #af8560;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+}
+.header-list .header-menu{
+    position: relative;
+    margin-right: 1.8rem;
+    font-size: 1.2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+}
+.header-list .header-menu a {
+    font-family: 'Nunito', sans-serif;
+}
+.header-list .header-menu:hover .header-menu-drop{
+    height: 125px;
+}
+.header .login-btn {
+    font-size: 1.2rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.header.sticky .login-btn {
+    font-size: 1rem;
+    background-color:  #caa381;
+    border: none;
+}
+.header .login-btn:hover {
+    background-color: rgb(194, 194, 194);
+    color: #161616;
+}
+.header.sticky .login-btn:hover {
+    background-color:  #c79263;
+}
+.header .header-list .header-menu-drop{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 40px;
+    left: 0;
+    font-size: 0.9rem;
+    z-index: 10;
+    background: #e4e3e3;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s;
+}
+.header.sticky .header-list .header-menu-drop{
+    background: #cfb59f;
+}
+
+.header-list .header-menu-drop li {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.header.sticky .header-list .header-menu-drop li {
+    border-bottom: 1px solid #cea887;
+}
+.header-list .header-menu-drop li:last-child {
+    border-bottom: none;
+}
+.header-list .header-menu-drop li a {
+    width: 100%;
+    height: 30px;
+}
+
+/* banner */
+#banner {
+    width: 100%;
+    background:  #f3f3f3;
+}
+.banner .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-title {
+    margin-bottom: 7rem;
+}
+.banner-title h1{
+    position: relative;
+    font-size: 6rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Fredoka One', cursive;
+}
+.banner-title h1 span {
+    font-family: 'Fredoka One', cursive;
+    color: #cfac8c;
+}
+.banner-title h1 em {
+    position: absolute;
+    margin-left: 5px;
+    font-family: 'Fredoka One', cursive;
+    transform: rotate(25deg);
+    animation: text2 1s;
+    color:#cfac8c;
+}
+.banner-title h2 {
+    font-size: 1rem;
+    position: relative;
+    float: right;
+    right: -40px;
+    margin-top: -18px;
+    font-family: 'Fredoka One', cursive;
+}
+.banner-function {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.banner-function .banner-function-box1 {
+    margin: 0 5rem;
+    width: 360px;
+    opacity: 0;
+}
+.banner-function .banner-function-box1.show{
+    animation: slide 1.5s;
+    opacity: 1;
+}
+.banner-function .banner-function-box2 {
+    margin: 0 5rem;
+    width: 360px;
+    opacity: 0;
+}
+.banner-function .banner-function-box2.show {
+    animation: slide 1.5s;
+    opacity: 1;
+}
+.banner-function .banner-function-box3 {
+    margin: 0 5rem;
+    width: 360px;
+    opacity: 0;
+}
+.banner-function .banner-function-box3.show {
+    animation: slide 1.5s;
+    opacity: 1;
+}
+.banner-function .banner-function-box1 .img-box,
+.banner-function .banner-function-box2 .img-box,
+.banner-function .banner-function-box3 .img-box{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.banner-function .banner-function-box1 h1,
+.banner-function .banner-function-box2 h1,
+.banner-function .banner-function-box3 h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.banner-function .banner-function-box1 p,
+.banner-function .banner-function-box2 p,
+.banner-function .banner-function-box3 p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* youtube */
+#youtube {
+    width: 100%;
+    background: #cfc2b6;
+    
+}
+.youtube .container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video { 
+    margin: 0 auto;
+}
+.video iframe{ 
+    width: 1000px;
+    height: 700px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+
+#sub-banner1 {
+   position: relative;
+   height: 22vh;
+   width: 100%;
+   background-image: url("./img/bg.jpg");
+   /* height: 100%; */
+   background-attachment: fixed;
+   background-position: no-repeat;
+   background-size: cover;
+   border-top: 1px solid #733E20;
+   border-bottom: 1px solid #733E20;
+}
+.sub-banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub-banner1::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 22vh;
+    top: 0;
+    left: 0;
+    background: #c2a388;
+    opacity: 0.5;
+    z-index: 1;
+}
+.sub-banner1 h1.sub-banner-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+}
+
+#sub-banner2 {
+    position: relative;
+    height: 22vh;
+    width: 100%;
+    background-image: url("./img/bg2.jpg");
+    /* height: 100%; */
+    background-attachment: fixed;
+    background-position: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #733E20;
+    border-bottom: 1px solid #733E20;
+ }
+.sub-banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub-banner2::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 22vh;
+    top: 0;
+    left: 0;
+    background: #c2a388;
+    opacity: 0.5;
+    z-index: 1;
+}
+.sub-banner2 h1.sub-banner-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+}
+
+/* notice */
+#notice {
+    /* width: 100%; */
+    height: 90vh;
+    background: #f3f3f3;
+}
+.notice .container {
+    padding: 100px 150px 50px 150px;
+    overflow: hidden;
+}
+.notice-box .notice-title {
+    background: #f3f3f3;
+    margin-bottom: 50px;
+    color: #bb763a;
+    transition: transform 1.5s;
+    transform: translateX(-150%);
+}
+.notice-box .notice-title h1 {
+    display: inline-block;
+    padding: 10px 100px;
+    background-color: #e2d3c6;
+    font-weight: 600;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 15px;
+    letter-spacing: 8px;
+}
+.notice-box .notice-title.show {
+    transform: translateX(0);
+}
+.notice-box .notice-list{
+    background-color: #e2d3c6;
+    border-radius: 15px;
+    color: #c28754;
+    padding: 10px 100px;
+    transition: transform 2s .7s;
+    transform: translateX(-150%);
+}
+.notice-box .notice-list li {
+    font-family: 'Fredoka One', cursive;
+    font-weight: thin;
+    line-height: 1.8;
+}
+.notice-box .notice-list.show {
+    transform: translateX(0);
+}
+.notice-box h1{
+    font-size: 5rem;
+}
+.notice-box ul {
+    padding: 25px;
+}
+.notice-box li {
+    font-size: 2.5rem;
+}
+
+/* goods */
+#goods {
+    width: 100%;
+    height: 90vh;
+}
+.goods .container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.good1 {
+    width: 100%;
+    height: 30vh;
+    background: #faf2ad;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.good1 .good1-box,
+.good2 .good2-box,
+.good3 .good3-box {
+    width: 600px;
+}
+.good1 .good1-box h1,
+.good2 .good2-box h1,
+.good3 .good3-box h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.good1 .good1-box p,
+.good2 .good2-box p,
+.good3 .good3-box p{
+    font-size: 2rem;
+}
+.good2 {
+    width: 100%;
+    height: 30vh;
+    background: #cea27b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.good3 {
+    width: 100%;
+    height: 30vh;
+    background: #8a614b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.good1 .goods-btn,
+.good2 .goods-btn,
+.good3 .goods-btn {
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 5rem;
+    transition: all .5s;
+    font-weight: thin;
+}
+/* .goods-btn:hover::after {
+    content: 'Move';
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: 700;
+    left: 70px;
+    top: 15px;
+} */
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 20vh;
+    background: #ccb8a8;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.footer p {
+    font-size: 1rem;
+    color: #555;
+}
+.footer p strong {
+    color: #555;
+}
+.footer .github {
+    margin: 10px 0;
+}
+.footer .github a {
+    color: #777;
+    font-size: 2rem;
+}
+.footer .github a:hover {
+    color: #333;
+}
+.footer .member a {
+    color: #777;
+    font-size: 1rem;
+    margin: 0 20px;
+}
+.footer .member a:hover {
+    color: #333;
+}
+.footer .member a i{
+    margin-right: 5px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+
+}
+@keyframes text {
+    from {
+        transform:  translate(-150px, -40px) rotate(120deg) scale(.4);
+    }
+    to {
+        transform:  translate(-150px, 0) scale(1) rotate(0deg);
+    }
+}
+@keyframes text2 {
+    from {
+        transform: rotate(0deg);
+        color: #222;
+    }
+    to {
+        transform: rotate(25deg);
+        color:#cfac8c;
+    }
+ }
