@@ -3,10 +3,10 @@
 
 <br>
 
-## ⭐ PROCESS
+# ⭐ PROCESS
 ### 2021-01-07
 1. **prototype ver1.0**
-    - Home 화면 구성
+    - <Home Component>
 
 <br>
 
