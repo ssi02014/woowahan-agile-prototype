@@ -226,7 +226,7 @@
    position: relative;
    height: 22vh;
    width: 100%;
-   background-image: url("./img/bg.jpg");
+   background-image: url("../img/bg.jpg");
    /* height: 100%; */
    background-attachment: fixed;
    background-position: no-repeat;
@@ -261,7 +261,7 @@
     position: relative;
     height: 22vh;
     width: 100%;
-    background-image: url("./img/bg2.jpg");
+    background-image: url("../img/bg2.jpg");
     /* height: 100%; */
     background-attachment: fixed;
     background-position: no-repeat;
