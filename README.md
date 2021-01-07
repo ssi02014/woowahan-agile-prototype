@@ -1,5 +1,11 @@
 # 📈 Woowahan-agile-prototype
-## **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
+### **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
+
+### 2021-01-07
+**prototype ver1.0**
+1. Home 화면 구성
+
+<br>
 
 <br>
 
