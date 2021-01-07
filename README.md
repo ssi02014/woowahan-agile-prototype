@@ -1,13 +1,13 @@
 # 📈 Woowahan-agile-prototype
 ### **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
 
+
+## Process
 ### 2021-01-07
 **prototype ver1.0**
 1. Home 화면 구성
 
-<br>
-
-<br>
+<hr>
 
 # 💻 우아한 애자일
 * 동아리명 : **우아한 애자일**  
