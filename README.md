@@ -1,13 +1,14 @@
 # 📈 Woowahan-agile-prototype
 ### **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
 
+<br>
 
-## Process
+## ⭐ PROCESS
 ### 2021-01-07
-**prototype ver1.0**
-1. Home 화면 구성
+1. **prototype ver1.0**
+    - Home 화면 구성
 
-<hr>
+<br>
 
 # 💻 우아한 애자일
 * 동아리명 : **우아한 애자일**  
@@ -17,7 +18,7 @@
 <br>
 
 ## 👨🏻‍💻 우아한 애자일 멤버 
-* 팀장(리뷰어) : **박우림** <[woorim960](https://github.com/woorim960)>
+* 팀장 : **박우림** <[woorim960](https://github.com/woorim960)>
    - 블로그 : [세상의 잣대가 아닌](https://blog.naver.com/dnfla420)
    - 유튜브 : [우리밋_woorimIT](https://www.youtube.com/channel/UCS0F25vig_sPIQXMiK8IdSg?view_as=subscriber)
 * 팀원 :
