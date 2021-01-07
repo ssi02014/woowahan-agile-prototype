@@ -1,3 +1,8 @@
+# 📈 Woowahan-agile-prototype
+## **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
+
+<br>
+
 # 💻 우아한 애자일
 * 동아리명 : **우아한 애자일**  
 * 창설 : 2020.12.03(목)
@@ -25,9 +30,7 @@
    
 <br>
 
-# 📈 Woowahan-agile-prototype
 
- **GitHub Page** (https://ssi02014.github.io/woowahan-agile-prototype/)
 
 
 
