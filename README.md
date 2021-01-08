@@ -6,7 +6,13 @@
 # ⭐ PROCESS
 ### * 2021-01-07
 1. **prototype ver1.0**
-    - Home Component
+   - Home Component: 전체 구조
+
+<br>
+
+### * 2021-01-07
+2. **prototype ver1.1**
+   - Home Component: Header 반응형 구현
 
 <br>
 

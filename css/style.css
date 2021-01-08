@@ -36,11 +36,11 @@
 }
 .header-list{
     display: flex;
+    align-items: center;
 }
 .header-list .header-menu{
     position: relative;
-    margin-right: 1.8rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 150px;
     text-align: center;
     font-weight: 600;
@@ -52,7 +52,7 @@
     height: 125px;
 }
 .header .login-btn {
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: 1px solid #000;
     border-radius: 5px;
     padding: 2px 10px;
@@ -149,9 +149,9 @@
     display: flex;
     overflow: hidden;
     flex-wrap: wrap;
+    flex-direction: space-between;
 }
 .banner-function .banner-function-box1 {
-    margin: 0 5rem;
     width: 360px;
     opacity: 0;
 }
@@ -160,7 +160,6 @@
     opacity: 1;
 }
 .banner-function .banner-function-box2 {
-    margin: 0 5rem;
     width: 360px;
     opacity: 0;
 }
@@ -169,7 +168,6 @@
     opacity: 1;
 }
 .banner-function .banner-function-box3 {
-    margin: 0 5rem;
     width: 360px;
     opacity: 0;
 }
@@ -466,15 +464,6 @@
     to {
         transform: translateY(0);
     }
-
-}
-@keyframes text {
-    from {
-        transform:  translate(-150px, -40px) rotate(120deg) scale(.4);
-    }
-    to {
-        transform:  translate(-150px, 0) scale(1) rotate(0deg);
-    }
 }
 @keyframes text2 {
     from {
@@ -485,4 +474,133 @@
         transform: rotate(25deg);
         color:#cfac8c;
     }
- }
+}
+
+/* 0 ~ 1220 : 데스크탑1  */
+@media (max-width: 1220px) {
+    /* header */
+    .header.sticky .container {
+        padding: 10px 50px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-nav.active{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 80px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: none;
+        flex-direction: column;
+        background: rgba(241, 241, 241, 0.97);
+    }
+    .header.sticky .header-nav.active {
+        top: 60px;
+        background: rgba(217, 197, 180, 0.97);
+    }
+    .header-nav.active .header-list {
+        flex-direction: column;
+        margin-top: -70px;
+    }
+    .header-nav.active .login-btn {
+        margin-right: 0;
+    }
+    .header-nav.active .header-menu {
+        width: 400px;
+        height: 40px;
+        background: #d1d1d1;
+        margin-bottom: 140px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .header.sticky .header-nav.active .header-menu {
+        background: #af8560;
+    }
+    .header-nav.active .header-menu.show {
+        border-bottom-left-radius: unset;
+        border-bottom-right-radius: unset;
+    }
+    .header-nav.active .header-menu > a {
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+    .header-nav.active .header-menu .header-menu-drop {
+        height: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .header-nav.active .header-menu.show .header-menu-drop {
+        height: 130px;
+    }
+    .header-nav.active .login-btn {
+        width: 250px;
+        height: 50px;
+        font-size: 1.4rem;
+        background: #d1d1d1;
+        border: none;
+    }
+    .header.sticky .header-nav.active .login-btn {
+        background: #af8560;
+    }
+    .header-nav.active .login-btn:hover {
+        background: #bebebe;
+    }
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../img/bars-solid.svg);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .menuToggle.active{
+        background: url(../img/times-solid.svg);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+
+    }
+}
+
+/* 0 ~ 1024 : 데스크탑2  */
+@media (max-width: 1024px) {
+
+}
+
+/* 0 ~ 960 : 테블릿1  */
+@media (max-width: 960px){
+
+}
+
+/* 0 ~ 768px : 타블렛2 */
+@media (max-width: 768px){
+
+}
+
+/* 0 ~ 480px : 모바일1 */
+@media (max-width: 480px){
+    .header.sticky .container {
+        padding: 10px 20px;
+    }
+    .header .header-title {
+        margin-left: 0;
+    }
+    .header.sticky .header-title {
+        margin-left: 0;
+    }
+    .header-nav.active .header-menu {
+        width: 250px;
+    }
+    
+}
+
+/* 0 ~ 320px : 모바일1 */
+@media (max-width: 320px){
+    
+}
