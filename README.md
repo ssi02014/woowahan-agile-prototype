@@ -16,15 +16,15 @@
 ### * 2021-01-07
 
 - **prototype ver1.0**
-   1. Home Component: Whole Structure
+1. Home Component: Whole Structure
 
 <br>
 
 ### * 2021-01-08
 - **prototype ver1.1**
-   1. Home Component: Header 반응형 구현
-     - Header 메뉴 글씨 크기 축소
-     - 반응형 전환 시 드랍 다운 메뉴 클릭식으로 변경
+1. Home Component: Header 반응형 구현
+   - Header 메뉴 글씨 크기 축소
+   - 반응형 전환 시 드랍 다운 메뉴 클릭식으로 변경
 <br>
 
 
