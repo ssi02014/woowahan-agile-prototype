@@ -493,7 +493,7 @@
         right: 0;
         display: flex;
         justify-content: center;
-        align-items: none;
+        align-items: center;
         flex-direction: column;
         background: rgba(241, 241, 241, 0.97);
     }
