@@ -33,6 +33,10 @@ function toggleMenu() {
 
     menuToggle.classList.toggle('active');
     navigation.classList.toggle('active');
+
+    if(!navigation.classList.contains('active')){
+        removeShow();
+    }
 }
 
 //헤더 메뉴 드랍 다운
@@ -44,11 +48,13 @@ function selectMenu(e) {
     if(navigation.classList.contains('active')) {
         this.classList.add('show');
     }
+    
 }
 function removeShow(){
     headerMenus.forEach(item => item.classList.remove('show'));
 }
 headerMenus.forEach(item => item.addEventListener('click', selectMenu));
+
 
 //banner class 추가
 function bannerClassAdd() {

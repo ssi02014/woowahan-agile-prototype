@@ -1,20 +1,30 @@
 # 📈 Woowahan-agile-prototype
 ### **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
 
+## 🚀 반응형 구현
+  1. 데스크탑1: 1220px
+  2. 데스크탑2: 1024px
+  3. 테블릿1: 960px
+  4. 테블릿2: 768px
+  5. 모바일1: 480px
+  6. 모바일2: 360px
 <br>
 
 # ⭐ PROCESS
 ### * 2021-01-07
+
 1. **prototype ver1.0**
-   - Home Component: 전체 구조
+   - Home Component: Whole Structure
 
 <br>
 
-### * 2021-01-07
+### * 2021-01-08
 2. **prototype ver1.1**
    - Home Component: Header 반응형 구현
-
+     1. Header 메뉴 글씨 크기 축소
+     2. 반응형 전환 시 드랍 다운 메뉴 클릭식으로 변경
 <br>
+
 
 # 💻 우아한 애자일
 * 동아리명 : **우아한 애자일**  
