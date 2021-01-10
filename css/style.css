@@ -353,7 +353,7 @@
     height: 90vh;
 }
 .goods .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -627,6 +627,11 @@
     .notice-box li {
         font-size: 1.6rem;
     }
+
+    /* goods */
+    .goods .container {
+        max-width: 1000px;
+    }
 }
 
 /* 0 ~ 1024 : 데스크탑3  */
@@ -709,7 +714,26 @@
         font-size: 1.45rem;
     }
 
-    
+    /* goods */
+    .goods .container {
+        width: 100%;
+        margin: 0;
+    }
+    .good1 .good1-box h1, 
+    .good2 .good2-box h1, 
+    .good3 .good3-box h1 {
+        font-size: 3rem;
+    }
+    .good1 .good1-box p, 
+    .good2 .good2-box p, 
+    .good3 .good3-box p {
+        font-size: 1.5rem;
+    }
+    .good1 .goods-btn, 
+    .good2 .goods-btn, 
+    .good3 .goods-btn {
+        font-size: 3.5rem;
+    }
 }
 
 /* 0 ~ 960 : 테블릿1  */
@@ -790,6 +814,11 @@
     .notice-box li {
         font-size: 0.9rem;
     }
+
+    /* goods */
+    .good1, .good2, .good3 {
+        padding: 25px;
+    }
     
 }
 
@@ -836,6 +865,23 @@
     }
     .notice-box li {
         font-size: 1rem;
+    }
+
+    /* goods */
+    .good1 .good1-box h1, 
+    .good2 .good2-box h1, 
+    .good3 .good3-box h1 {
+        font-size: 2.5rem;
+    }
+    .good1 .good1-box p, 
+    .good2 .good2-box p, 
+    .good3 .good3-box p {
+        font-size: 1.2rem;
+    }
+    .good1 .goods-btn, 
+    .good2 .goods-btn, 
+    .good3 .goods-btn {
+        font-size: 3rem;
     }
 }
 
@@ -887,6 +933,30 @@
     .notice-box li {
         font-size: 0.9rem;
     }
+    /* goods */
+    #goods {
+        height: 75vh;
+    }
+    .good1, .good2, .good3 {
+        padding: 10px;
+        height: 25vh;
+    }
+    .good1 .good1-box h1, 
+    .good2 .good2-box h1, 
+    .good3 .good3-box h1 {
+        font-size: 2rem;
+    }
+    .good1 .good1-box p, 
+    .good2 .good2-box p, 
+    .good3 .good3-box p {
+        font-size: 1.2rem;
+        margin-right: 10px;
+    }
+    .good1 .goods-btn, 
+    .good2 .goods-btn, 
+    .good3 .goods-btn {
+        font-size: 2.5rem;
+    }
 }
 
 /* 0 ~ 360px : 모바일1 */
@@ -897,5 +967,10 @@
     }
     .banner-title h2 {
         font-size: 0.9rem;
+    }
+    .good1 .good1-box p, 
+    .good2 .good2-box p, 
+    .good3 .good3-box p {
+        margin-right: 10px;
     }
 }
