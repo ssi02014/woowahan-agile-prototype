@@ -561,13 +561,13 @@
     .header-nav.active .header-menu.show .header-menu-drop { height: 130px; }
     .header-nav.active .login-btn {
         width: 250px;
-        height: 30px;
+        height: 40px;
         font-size: 1.2rem;
         background: #d1d1d1;
         border: none;
     }
     .header.sticky .header-nav.active .login-btn { background: #af8560; }
-    .header.sticky .header-nav.active .login-btn:hover { background: #ac7e56; }
+    .header.sticky .header-nav.active .login-btn:hover { background: #a87447; }
     .header-nav.active .login-btn:hover { background: #bebebe; }
     .menuToggle{
         position: relative;
