@@ -589,6 +589,12 @@
     .banner-function .banner-function-box3 p {
         font-size: 1.1rem;
     }
+
+    /* youtube */
+    .video iframe{ 
+        width: 800px;
+        height: 600px;
+    }
 }
 
 /* 0 ~ 1024 : 데스크탑2  */
@@ -639,7 +645,6 @@
     /* sub-banner */
     #sub-banner1 {
         height: 17vh;
-        width: 100%;
     }
     #sub-banner1::after {
         height: 17vh;
@@ -649,7 +654,6 @@
     }
     #sub-banner2 {
         height: 17vh;
-        width: 100%;
     }
     #sub-banner2::after {
         height: 17vh;
@@ -657,11 +661,16 @@
     .sub-banner2 h1.sub-banner-title {
         font-size: 3.5rem;
     }
+
+    
 }
 
 /* 0 ~ 960 : 테블릿1  */
 @media (max-width: 960px){
-    
+    .video iframe{ 
+        width: 700px;
+        height: 500px;
+    }
 }
 
 /* 0 ~ 768px : 테블릿2 */
@@ -679,6 +688,33 @@
         float: none;
         margin-top: 10px;
     }
+
+    /* sub-banner */
+    #sub-banner1 {
+        height: 14vh;
+    }
+    #sub-banner1::after {
+        height: 14vh;
+    }
+    .sub-banner1 h1.sub-banner-title {
+        font-size: 3rem;
+    }
+    #sub-banner2 {
+        height: 14vh;
+    }
+    #sub-banner2::after {
+        height: 14vh;
+    }
+    .sub-banner2 h1.sub-banner-title {
+        font-size: 3rem;
+    }
+
+    /* youtube */
+    .video iframe{ 
+        width: 600px;
+        height: 400px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    }
 }
 
 /* 0 ~ 670px : 테블릿3 */
@@ -690,10 +726,26 @@
     .banner-title h2 {
         font-size: 1.3rem;
     }
+    .sub-banner1 h1.sub-banner-title {
+        font-size: 2.5rem;
+    }
+    .sub-banner2 h1.sub-banner-title {
+        font-size: 2.5rem;
+    }
+    /* youtube */
+    .youtube .container {
+        height: 70vh;
+    }
+    .video iframe{ 
+        width: 400px;
+        height: 300px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    }
 }
 
 /* 0 ~ 480px : 모바일1 */
 @media (max-width: 480px){
+    /* header */
     .header.sticky .container {
         padding: 10px 20px;
     }
@@ -706,12 +758,31 @@
     .header-nav.active .header-menu {
         width: 250px;
     }
+
     /* banner */
     .banner-title h1 {
         font-size: 1.8rem;
     }
     .banner-title h2 {
         font-size: 1rem;
+    }
+
+    /* sub-banner */
+    .sub-banner1 h1.sub-banner-title {
+        font-size: 2rem;
+    }
+    .sub-banner2 h1.sub-banner-title {
+        font-size: 2rem;
+    }
+
+    /* youtube */
+    .youtube .container {
+        height: 60vh;
+    }
+    .video iframe{ 
+        width: 300px;
+        height: 200px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     }
 }
 
