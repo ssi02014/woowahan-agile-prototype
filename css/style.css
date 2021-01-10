@@ -507,7 +507,7 @@
 /* 0 ~ 1220 : 데스크탑2  */
 @media (max-width: 1220px) {
     /* header */
-    .header.sticky .container { padding: 10px 50px; }
+    .header.sticky .container { padding: 20px 15px; }
     .header-nav{ display: none; }
     .header-nav.active{
         width: 40%;
@@ -523,7 +523,7 @@
         animation: slide2 .5s;
     }
     .header.sticky .header-nav.active {
-        top: 60px;
+        top: 80px;
         background: rgba(217, 197, 180, 0.97);
     }
     .header-nav.active .header-list {
@@ -824,7 +824,7 @@
 
     /* notice */
     .notice .container {
-        padding: 70px 100px 30px 100px;
+        padding: 40px 100px 40px 100px;
     }
     .notice-box .notice-title h1 {
         font-size: 1.8rem;
