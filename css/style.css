@@ -477,8 +477,25 @@
         color:#cfac8c;
     }
 }
-
 /* 0 ~ 1220 : 데스크탑1  */
+@media (max-width: 1550px) {
+    /* notice */
+    .notice .container {
+        padding: 80px 120px 30px 120px;
+    }
+    .notice-box .notice-title h1 {
+        font-size: 3rem;
+        padding: 10px 80px;
+    }
+    .notice-box .notice-list {
+        padding: 10px 70px
+    }
+    .notice-box li {
+        font-size: 1.8rem;
+    }
+}
+
+/* 0 ~ 1220 : 데스크탑2  */
 @media (max-width: 1220px) {
     /* header */
     .header.sticky .container { padding: 10px 50px; }
@@ -595,9 +612,24 @@
         width: 800px;
         height: 600px;
     }
+
+    /* notice */
+    #notice {
+        height: 80vh;
+    }
+    .notice-box .notice-title h1 {
+        font-size: 2.5rem;
+        padding: 10px 80px;
+    }
+    .notice-box .notice-list {
+        padding: 10px 50px
+    }
+    .notice-box li {
+        font-size: 1.6rem;
+    }
 }
 
-/* 0 ~ 1024 : 데스크탑2  */
+/* 0 ~ 1024 : 데스크탑3  */
 @media (max-width: 1024px) {
     /* banner */
     .banner-title h1 {
@@ -662,6 +694,21 @@
         font-size: 3.5rem;
     }
 
+    /* notice */
+    #notice {
+        height: 70vh;
+    }
+    .notice-box .notice-title h1 {
+        font-size: 2.2rem;
+        padding: 10px 60px;
+    }
+    .notice-box .notice-list {
+        padding: 10px 50px
+    }
+    .notice-box li {
+        font-size: 1.45rem;
+    }
+
     
 }
 
@@ -670,6 +717,20 @@
     .video iframe{ 
         width: 700px;
         height: 500px;
+    }
+
+    /* notice */
+    #notice {
+        height: 65vh;
+    }
+    .notice-box .notice-title h1 {
+        font-size: 2rem;
+    }
+    .notice-box .notice-list {
+        padding: 10px 30px
+    }
+    .notice-box li {
+        font-size: 1.1rem;
     }
 }
 
@@ -715,6 +776,21 @@
         height: 400px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     }
+
+    /* notice */
+    .notice .container {
+        padding: 70px 100px 30px 100px;
+    }
+    .notice-box .notice-title h1 {
+        font-size: 1.8rem;
+    }
+    .notice-box .notice-list {
+        padding: 10px 20px
+    }
+    .notice-box li {
+        font-size: 0.9rem;
+    }
+    
 }
 
 /* 0 ~ 670px : 테블릿3 */
@@ -732,6 +808,7 @@
     .sub-banner2 h1.sub-banner-title {
         font-size: 2.5rem;
     }
+
     /* youtube */
     .youtube .container {
         height: 70vh;
@@ -740,6 +817,25 @@
         width: 400px;
         height: 300px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    /* notice */
+    #notice {
+        height: 60vh;
+    }
+    .notice .container {
+        padding: 70px 70px 30px 70px;
+    }
+    .notice-box .notice-title h1 {
+        font-size: 1.3rem;
+        padding: 10px 20px;
+        letter-spacing: 4px;
+    }
+    .notice-box .notice-list {
+        padding: 10px 10px
+    }
+    .notice-box li {
+        font-size: 1rem;
     }
 }
 
@@ -783,6 +879,13 @@
         width: 300px;
         height: 200px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .notice .container {
+        padding: 70px 40px 30px 40px;
+    }
+    .notice-box li {
+        font-size: 0.9rem;
     }
 }
 

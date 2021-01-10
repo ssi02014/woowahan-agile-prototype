@@ -4,13 +4,14 @@
 <br>
 
 ### 🚀 반응형 구현
-  1. 데스크탑1: 1220px
-  2. 데스크탑2: 1024px
-  3. 테블릿1: 960px
-  4. 테블릿2: 768px
+  1. 데스크탑1: 1550px
+  2. 데스크탑2: 1220px
+  3. 데스크탑3: 1024px
+  4. 테블릿1: 960px
+  5. 테블릿2: 768px
   6. 테블릿3: 670px
-  5. 모바일1: 480px
-  6. 모바일2: 360px
+  7. 모바일1: 480px
+  8. 모바일2: 360px
 <br>
 
 # ⭐ PROCESS
@@ -18,14 +19,23 @@
 
 - **prototype ver1.0**
 1. Home Component: Whole Structure
-
 <br>
 
 ### * 2021-01-08
 - **prototype ver1.1**
-1. Home Component: Header 반응형 구현
+1. Home Component
+   - Header 영역 반응형 구현
    - Header 메뉴 글씨 크기 축소
    - 반응형 전환 시 드랍 다운 메뉴 클릭식으로 변경
+<br>
+
+### * 2021-01-10
+- **prototype ver1.2**
+1. Home Component
+   - Main Banner 영역 반응형 구현
+   - Sub Banner 영역 반응형 구현
+   - youtube 영역 반응형 구현
+   - Notice 영역 반응형 구현
 <br>
 
 
