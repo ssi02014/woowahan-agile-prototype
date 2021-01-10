@@ -37,6 +37,7 @@
    - youtube 영역 반응형 구현
    - Notice 영역 반응형 구현
    - goods 영역 반응형 구현
+   - footer 영역 반응형 구현
 <br>
 
 

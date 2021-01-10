@@ -420,7 +420,7 @@
 /* footer */
 #footer {
     width: 100%;
-    height: 20vh;
+    height: 18vh;
     background: #ccb8a8;
 }
 .footer .container {
@@ -756,6 +756,12 @@
     .notice-box li {
         font-size: 1.1rem;
     }
+
+    /* footer */
+    .footer .member a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
 }
 
 /* 0 ~ 768px : 테블릿2 */
@@ -818,6 +824,12 @@
     /* goods */
     .good1, .good2, .good3 {
         padding: 25px;
+    }
+
+    /* footer */
+    .footer .member a {
+        margin: 0 5px;
+        font-size: 0.8rem;
     }
     
 }
@@ -882,6 +894,14 @@
     .good2 .goods-btn, 
     .good3 .goods-btn {
         font-size: 3rem;
+    }
+
+    #footer {
+        height: 32vh;
+    }
+    .footer .member a {
+        display: flex;
+        margin-bottom: 5px;
     }
 }
 
@@ -957,6 +977,11 @@
     .good3 .goods-btn {
         font-size: 2.5rem;
     }
+
+    /* footer */
+    .footer p {
+        font-size: 0.8rem;
+    }
 }
 
 /* 0 ~ 360px : 모바일1 */
@@ -972,5 +997,9 @@
     .good2 .good2-box p, 
     .good3 .good3-box p {
         margin-right: 10px;
+    }
+    /* footer */
+    .footer p {
+        font-size: 0.7rem;
     }
 }
