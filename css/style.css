@@ -535,7 +535,7 @@
         width: 100%;
     }
     .header-nav.active .header-menu {
-        width: 90%;
+        width: 75%;
         height: 40px;
         background: #d1d1d1;
         margin-bottom: 140px;
@@ -560,7 +560,7 @@
     }
     .header-nav.active .header-menu.show .header-menu-drop { height: 130px; }
     .header-nav.active .login-btn {
-        width: 250px;
+        width: 90%;
         height: 40px;
         font-size: 1.2rem;
         background: #d1d1d1;
