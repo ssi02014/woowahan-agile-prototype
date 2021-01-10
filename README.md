@@ -1,5 +1,10 @@
 # 📈 Woowahan-agile-prototype
 ### **GitHub Page** ( https://ssi02014.github.io/woowahan-agile-prototype/ )
+<br>
+
+### **Home Page**
+
+![home](https://user-images.githubusercontent.com/64779472/104131908-f38d1a80-53bc-11eb-910b-b952d8d2d347.jpg)
 
 <br>
 
