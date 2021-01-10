@@ -467,6 +467,15 @@
         transform: translateY(0);
     }
 }
+@keyframes slide2 {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 @keyframes text2 {
     from {
         transform: rotate(0deg);
@@ -501,7 +510,7 @@
     .header.sticky .container { padding: 10px 50px; }
     .header-nav{ display: none; }
     .header-nav.active{
-        width: 100%;
+        width: 40%;
         height: 100vh;
         position: fixed;
         top: 80px;
@@ -511,6 +520,7 @@
         align-items: center;
         flex-direction: column;
         background: rgba(241, 241, 241, 0.97);
+        animation: slide2 .5s;
     }
     .header.sticky .header-nav.active {
         top: 60px;
@@ -521,8 +531,11 @@
         margin-top: -70px;
     }
     .header-nav.active .login-btn { margin-right: 0; }
+    .header-nav.active .header-list {
+        width: 100%;
+    }
     .header-nav.active .header-menu {
-        width: 400px;
+        width: 90%;
         height: 40px;
         background: #d1d1d1;
         margin-bottom: 140px;
@@ -779,7 +792,9 @@
         float: none;
         margin-top: 10px;
     }
-
+    .header-nav.active .header-menu > a {
+        font-size: 1.1rem;
+    }
     /* sub-banner */
     #sub-banner1 {
         height: 14vh;
@@ -837,6 +852,12 @@
 /* 0 ~ 670px : 테블릿3 */
 @media (max-width: 670px){
     /* banner */
+    .header-nav.active {
+        width: 100%;
+    }
+    .header-nav.active .header-menu {
+        width: 80%;
+    }
     .banner-title h1 {
         font-size: 2.4rem;
     }
@@ -896,12 +917,21 @@
         font-size: 3rem;
     }
 
+    /* footer */
     #footer {
         height: 32vh;
+    }
+    .footer .container {
+        padding: 20px 0;
     }
     .footer .member a {
         display: flex;
         margin-bottom: 5px;
+        height: 20px;
+        align-items: center;
+    }
+    .footer .member a i {
+        margin-right: 15px;
     }
 }
 
@@ -918,7 +948,7 @@
         margin-left: 0;
     }
     .header-nav.active .header-menu {
-        width: 250px;
+        /* width: 250px; */
     }
 
     /* banner */
