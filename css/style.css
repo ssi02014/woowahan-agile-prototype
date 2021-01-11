@@ -1,4 +1,3 @@
-
 .header{
     position: fixed;
     width: 100%;
@@ -522,6 +521,7 @@
         background: rgba(241, 241, 241, 0.97);
         animation: slide2 .5s;
     }
+    
     .header.sticky .header-nav.active {
         top: 80px;
         background: rgba(217, 197, 180, 0.97);
@@ -538,10 +538,14 @@
         width: 75%;
         height: 40px;
         background: #d1d1d1;
-        margin-bottom: 140px;
+        margin-bottom: 105px;
         align-items: center;
         border-radius: 10px;
     }
+    .header-list .header-menu-drop li {
+        padding: 5px 10px;
+    }
+    
     .header.sticky .header-nav.active .header-menu {
         background: #af8560;
     }
@@ -558,7 +562,7 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    .header-nav.active .header-menu.show .header-menu-drop { height: 130px; }
+    .header-nav.active .header-menu.show .header-menu-drop { height: 101px; }
     .header-nav.active .login-btn {
         width: 90%;
         height: 40px;
@@ -853,6 +857,7 @@
 /* 0 ~ 670px : 테블릿3 */
 @media (max-width: 670px){
     /* banner */
+
     .header-nav.active {
         width: 100%;
     }
@@ -871,7 +876,12 @@
     .sub-banner2 h1.sub-banner-title {
         font-size: 2.5rem;
     }
-
+    .header-list .header-menu-drop li {
+        padding: 5px 10px;
+    }
+    .header-nav.active .header-menu.show .header-menu-drop {
+        height: 96px;
+    }
     /* youtube */
     .youtube .container {
         height: 70vh;
