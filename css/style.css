@@ -887,7 +887,10 @@
         height: 60vh;
     }
     .notice .container {
-        padding: 70px 70px 30px 70px;
+        padding: 40px;
+    }
+    .notice-box .notice-title {
+        margin-bottom: 30px;
     }
     .notice-box .notice-title h1 {
         font-size: 1.3rem;
@@ -975,9 +978,6 @@
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     }
 
-    .notice .container {
-        padding: 70px 40px 30px 40px;
-    }
     .notice-box li {
         font-size: 0.9rem;
     }
