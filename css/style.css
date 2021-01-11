@@ -939,9 +939,6 @@
 /* 0 ~ 480px : 모바일1 */
 @media (max-width: 480px){
     /* header */
-    .header.sticky .container {
-        padding: 10px 20px;
-    }
     .header .header-title {
         margin-left: 0;
     }
