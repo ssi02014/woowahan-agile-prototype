@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background: url(../img/logginpage-bg01.PNG); */
+    /* background-size: cover;
+    font-family: sans-serif; */
+}
+
+#wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 로그인 메인 */
+.loginbox {
+    width: 420px;
+    height: 500px;
+    background: #cfac8c;
+    color: #f3f3f3;
+    /* top : 50%;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-50%,-50%); */
+    box-sizing: border-box;
+    padding: 50px 30px;
+    position: relative;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.loginbox h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.loginbox .loginid,
+.loginbox .loginpw {
+    border: none;
+    border-bottom: 1px solid #f3f3f3;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #f3f3f3;
+    font-size: 20px;
+}
+
+.loginbtn {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #222222;
+    background: #f3f3f3;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.loginbtn:hover {
+    border: 1px solid  #f3f3f3;
+    color: #f3f3f3;
+    background: #ccae92;
+}
+
+.loginbox p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input::placeholder {
+    padding-left: 5px;
+    color: #fff;
+}
+.loginbox input:focus::placeholder {
+    color: rgb(255, 0, 0);
+}
+.loginbox input:focus {
+    border-bottom: 1px solid  rgb(255, 0, 0);
+}
+
+.loginbox .img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 45%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    padding-top: 20px;
+    opacity: 0.9;
+}
+
+/* 로그인 메인 */
+.login_main {
+    margin-top: 40px;
+}
+
+/* 로그인 푸터 */
+
+.login_footer {
+    padding-top: 10px;
+}
+.login_footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_footer li {
+    display: inline;
+    margin: 0 20px;
+}
+.login_footer li:last-child {
+}
+
+.login_footer li a {
+    font-size: 12px;
+    color: #222222;
+}
+
+.login_footer li a:hover {
+    color: #0093bd;
+}

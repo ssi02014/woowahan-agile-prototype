@@ -47,9 +47,7 @@
 .header-list .header-menu a {
     font-family: 'Nunito', sans-serif;
 }
-.header-list .header-menu:hover .header-menu-drop{
-    height: 125px;
-}
+
 .header .login-btn {
     font-size: 1rem;
     border: 1px solid #000;
@@ -82,6 +80,9 @@
     text-align: center;
     overflow: hidden;
     transition: .5s;
+}
+.header-list .header-menu:hover .header-menu-drop{
+    height: 125px;
 }
 .header.sticky .header-list .header-menu-drop{
     background: #cfb59f;
@@ -485,7 +486,7 @@
         color:#cfac8c;
     }
 }
-/* 0 ~ 1220 : 데스크탑1  */
+/* 0 ~ 1550 : 데스크탑1  */
 @media (max-width: 1550px) {
     /* notice */
     .notice .container {
